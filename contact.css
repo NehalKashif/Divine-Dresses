@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1px 2px;
+}
+header{
+    background-color: rgb(190, 99, 251);
+    background: linear-gradient(90deg, rgb(190, 99, 251, 1) 0%, rgb(254, 7, 7, 0.8974358974358975) 60%, rgb(252, 176, 69, 1) 100%);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+header h1{
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.67);
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    line-height: 65px;
+    padding-left: 80px;
+}
+h3{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.67);
+    padding-left: 85px;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+.Login{
+    float: right;
+    margin: 5px 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.67);
+}
+nav{
+    background-color: rgb(190, 99, 251);
+    background: linear-gradient(90deg, rgb(190, 99, 251, 1) 0%, rgb(254, 7, 7, 0.8974358974358975) 60%, rgb(252, 176, 69, 1) 100%);
+    padding: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    float: left;
+    padding: 10px 25px;
+    color: #ffffffab;
+    text-decoration: none;
+}
+.nav{
+    width:60%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: 40%;
+    margin-left: 0%;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.20);
+    border: 2px solid rgba(255, 255, 255, 0.537);
+    color: rgba(255, 255, 255, 0.67);
+    border-radius: 20px;
+    height: 40px;
+    width: 60%;
+    padding: 10px 10px;
+    margin-right: 0%;
+    margin-left: 0.5%;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.20);
+    border: 2px solid rgba(255, 255, 255, 0.537);
+    color: rgba(255, 255, 255, 0.67);
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+    height: 40px;
+    margin-left: 0.5%;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.67);
+}
+.Login:hover, button:hover, a:hover{
+    background-color: rgba(255, 255, 255, 0.20);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+main{
+    background-color: rgb(190, 99, 251);
+    background: linear-gradient(90deg, rgba(190, 99, 251, 0.545) 0%, rgba(254, 7, 7, 0.545) 60%, rgba(252, 176, 69, 0.547) 100%);
+    margin-top: 0%;
+    padding: 10px;
+    animation: visible 1s ease 0.1s 1 alternate both;
+    animation: up 1s ease 0.1s 1 alternate both;
+}
+main h1{
+    text-align: center;
+    padding: 20px 10px;
+    color: rgba(255, 255, 255, 0.701);
+    animation: visible 1s ease 0.1s 1 alternate both;
+    animation: up 1s ease 0.1s 1 alternate both;
+    letter-spacing: 2px;
+    word-spacing: 12px;
+}
+footer{
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+.contact{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    background-color: rgb(190, 99, 251);
+    background: linear-gradient(90deg, rgba(190, 99, 251, 0.545) 0%, rgba(254, 7, 7, 0.545) 60%, rgba(252, 176, 69, 0.547) 100%);
+    padding: 50px 20px;
+}
+.num{
+    margin: 50px 10px;
+    margin-top: 20px;
+}
+.num p{
+    padding: 10px 20px;
+}
+.links{
+    float: none;
+    padding: 20px 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.links{
+    border: 2px solid white;
+    border-radius: 30%;
+    color: white;
+    margin-top: 80px;
+}
+#W{
+    background-color: rgb(23, 224, 23);
+}
+#W:hover{
+    background-color: rgba(23, 224, 23, 0.71);
+}
+#F{
+    background-color: rgb(11, 143, 244);
+}
+#F:hover{
+    background-color: rgba(11, 143, 244, 0.799);
+}
+#I{
+    background-color: rgb(190, 99, 251);
+    background: linear-gradient(90deg, rgba(190, 99, 251, 1) 0%, rgba(254, 7, 7, 1) 60%, rgba(252, 176, 69, 1) 100%);
+}
+.links:hover{
+    background-color: rgba(255, 255, 255, 0.50);
+    transform: scale(0.8);
+    cursor: pointer;
+}
+#I:hover{
+    background-color: rgba(190, 99, 251, 1);
+    background: linear-gradient(90deg, rgba(190, 99, 251, 0.8) 0%, rgba(254, 7, 7, 0.8) 60%, rgba(252, 176, 69, 0.8) 100%);
+}
+@keyframes forward{
+    0%{
+        padding-left: 0px;
+        color: rgba(255, 255, 255, 0.00);
+    }
+    100%{
+        padding-left: 80px;
+        color: rgba(255, 255, 255, 0.67);
+    }
+}
+@keyframes fade{
+    0%{
+        color: rgba(255, 255, 255, 0.00);
+    }
+    100%{
+        color: rgba(255, 255, 255, 0.67);
+    }
+}
+@keyframes up{
+    0%{
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.00);
+    }
+    100%{
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.67);
+    }
+}
+@keyframes visible{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 870px){
+    nav{
+        align-content: center;
+        flex-direction: column;
+        align-self: center;
+    }
+    .nav{
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    a{
+        padding: 10px 30px;
+    }
+    .search{
+        width: 100%;
+        padding-left: 15%;
+        
+    }
+}
+@media screen and (max-width: 670px){
+    .nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (max-width: 600px){
+    .nav{
+        flex-direction: column;
+    }
+    header h1, h3{
+        padding-left: 55px;
+    }
+}
+@media screen and (max-width: 750px){
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 550px){
+    .contact{
+        width: 100%;
+        margin-left: 0%;
+        padding: 50px 5px;
+    }
+}
+@media  screen and (max-width: 415px) {
+    .acc{
+        display: flex;
+        flex-direction: column;
+    }
+    .W, .F, .I{
+        margin: 0px 10px;
+        padding: 5px 5px;
+    }
+    .acc a{
+        padding: 5px 0px;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 0%;
+    }
+}

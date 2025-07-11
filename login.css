@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family:'Helvetica Neue', sans-serif;
+    margin: 1px 2px;
+}
+body{
+    background-color: rgb(190, 99, 251);
+    background: linear-gradient(90deg, rgb(190, 99, 251, 1) 0%, rgb(254, 7, 7, 0.8974358974358975) 60%, rgb(252, 176, 69, 1) 100%);
+    margin-top: 0%;
+    place-content: center;
+}
+h1{
+    color: rgba(255, 255, 255, 0.67);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.67);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+p{
+    padding: 20px;
+}
+.loginbutton{
+    background-color: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.67);
+    margin-bottom: 15px;
+    font-size: 20px;
+    height: 1.5cm;
+    width: 5cm;
+    border: 2px solid rgba(255, 255, 255, 0.67);
+    border-radius: 15px;
+}
+input{
+    font-size: 20px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 2px solid rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    color: #ffffffab;
+    margin-left: 10px;
+}
+.loginbutton:hover, a:hover{
+    background-color: rgba(255, 255, 255, 0.20);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #ffffffab;
+    padding: 5px;
+}
+@media screen and (max-width: 1050px) {
+    .login{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .login{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .login{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .login{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .login{
+        width: 98%;
+        margin-left: 1%;
+    }
+    .input{
+        width: 30%;
+    }
+}
